@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: rgb(250, 250, 250);
+}
+
+
+div.left {
+    background-image: url(/picture/fzBXVxs22bH.png);
+    align-self: center;
+    background-position: -46px 0;
+    background-size: 468.32px 634.15px;
+    flex-basis: 380.32px;
+    height: 581.15px;
+    background-repeat: no-repeat;
+    float:inline-start;
+    width: 50%;
+}
+
+div.phone {
+    background-image: url(/picture/screenshot1-2x.png);
+    position: relative;
+    background-size: 250px 538.833px;
+    background-position: 112px 26px;
+    flex-basis: 250px;
+    height: 538.833px;
+    background-repeat: no-repeat;
+}
+
+div.right {
+    align-self: center;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 1px;
+    box-sizing: border-box;
+    background-size: 348px 377px;
+    float: inline-start
+}
