@@ -10,6 +10,7 @@ body {
 
 main {
     display: flex;
+    justify-content: center;
 }
 
 .left {
@@ -38,4 +39,121 @@ main {
     background-color: #ffffff;
     border: 2px solid #ededed;
     border-radius: 1px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    font-size: 100%;
+    margin: 0 0 10px;
+    padding: 10px 0;
+    justify-items: center;
+    align-items: center;
+}
+
+.logo-img {
+    background-image: url(https://static.cdninstagram.com/rsrc.php/v3/y1/r/XgiuS2Esj4y.png);
+    width: 175px;
+    height: 51px;
+    background-repeat: no-repeat;
+    background-position: 0px -502px;
+    background-size: 347px 606px;
+    margin: 30px auto;
+}
+
+.username {
+    background-color: #fafafa;
+    border: 1px solid #eaeaea;
+    border-radius: 1px;
+    margin-bottom: 6px;
+    width: 260px;
+    height: 34px;
+}
+
+.password {
+    background-color: #fafafa;
+    border: 1px solid #eaeaea;
+    border-radius: 1px;
+    width: 260px;
+    height: 34px;
+    margin-bottom: 13px;
+
+}
+
+.button-login {
+    width: 260px;
+    height: 34px;
+    background-color: #b2dffc;
+    border: 0px;
+    border-radius: 4px;
+    color: #ffffff;
+    font-weight: bold;
+    margin-bottom: 27px;
+}
+
+.or {
+    width: 268px;
+    height: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.line-1 {
+    width: 40%;
+    height: 1px;
+    background-color: #ededed;
+}
+
+.or-text {
+    padding: 0px 20px;
+    font-weight: bold;
+    color: #8e8e8e;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.line-2 {
+    width: 40%;
+    height: 1px;
+    background-color: #ededed;
+}
+
+.facebook {
+    height: 19.5px;
+    width: 268px;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.icon {
+    background-image: url(https://static.cdninstagram.com/rsrc.php/v3/y5/r/TJztmXpWTmS.png);
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-position: -414px -259px;
+}
+
+.text-facebook {
+    font-weight: bold;
+    color: #385185;
+    margin-left: 10px;
+}
+
+.forget {
+    width: 100%;
+    text-align: center;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+.sign-up {
+    background-color: #ffffff;
+    border: 1px solid #dbdbdb;
+    border-radius: 1px;
+    height: 63px;
+    width: 350px;
+}
+
+.text-signup {
+    
 }
