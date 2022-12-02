@@ -3,24 +3,39 @@
 }
 
 body {
-    background-color: rgb(250, 250, 250);
+    height: 100vh;
+    width: 100%;
+    background-color: #fafafa;
 }
 
+main {
+    display: flex;
+}
 
-div.left {
+.left {
+    background-image: url(https://static.cdninstagram.com/rsrc.php/v3/y4/r/ItTndlZM2n2.png);
     width: 380.317px;
     height: 581.15px;
-    background-image: url(/picture/fzBXVxs22bH.png);
+    background-repeat: no-repeat;
     background-size: 468.32px 634.15px;
-    display: flex;
     background-position: -46px 0;
+    margin-right: 30px;
 }
 
-div.phone {
-    background-image: url(/picture/screenshot1-2x.png);
+.left > img {
+    width: 250px;
+    margin: 25px 0px 0px 112px;
 }
 
-div.right {
-    background-color: rgb(255, 255, 255);
-    border: 1px solid rgb(219, 219, 219);
+.right {
+    width: 350px;
+    height: 755;
+}
+
+.login {
+    width: 350px;
+    height: 399px;
+    background-color: #ffffff;
+    border: 2px solid #ededed;
+    border-radius: 1px;
 }
