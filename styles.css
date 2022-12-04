@@ -1,16 +1,24 @@
 * {
     margin: 0;
+    font-family: 'Anek Devanagari', sans-serif;
 }
 
 body {
-    height: 100vh;
+    height: 100%;
     width: 100%;
     background-color: #fafafa;
+    height: 100vh;
+    padding-top: 23px;
 }
 
 main {
     display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
     justify-content: center;
+    align-items: center;
+    height: 80%;
 }
 
 .left {
@@ -28,7 +36,10 @@ main {
     margin: 25px 0px 0px 112px;
 }
 
+/* style right */
+
 .right {
+    margin-top: 23px;
     width: 350px;
     height: 755;
 }
@@ -57,6 +68,7 @@ main {
     background-position: 0px -502px;
     background-size: 347px 606px;
     margin: 30px auto;
+    padding-top: 10px;
 }
 
 .username {
@@ -79,14 +91,16 @@ main {
 }
 
 .button-login {
-    width: 260px;
-    height: 34px;
+    width: 270px;
+    height: 30px;
     background-color: #b2dffc;
     border: 0px;
     border-radius: 4px;
     color: #ffffff;
     font-weight: bold;
     margin-bottom: 27px;
+    font-size: 16px;
+    padding-top: 3px;
 }
 
 .or {
@@ -95,12 +109,14 @@ main {
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-top: -10px;
 }
 
 .line-1 {
     width: 40%;
     height: 1px;
     background-color: #ededed;
+    margin-bottom: 5px;
 }
 
 .or-text {
@@ -115,6 +131,7 @@ main {
     width: 40%;
     height: 1px;
     background-color: #ededed;
+    margin-bottom: 5px;
 }
 
 .facebook {
@@ -122,7 +139,7 @@ main {
     width: 268px;
     display: flex;
     justify-content: center;
-    margin-top: 25px;
+    margin-top: 30px;
 }
 
 .icon {
@@ -137,6 +154,7 @@ main {
     font-weight: bold;
     color: #385185;
     margin-left: 10px;
+    margin-top: -3px;
 }
 
 .forget {
@@ -151,9 +169,75 @@ main {
     border: 1px solid #dbdbdb;
     border-radius: 1px;
     height: 63px;
-    width: 350px;
+    width: 348px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #3b3b3b;
+    font-size: 16px;
 }
 
-.text-signup {
-    
+.text-signup > span {
+    color: #0095f6;
+    font-weight: bold;
+    font-size: 16px;
 }
+
+.getapp {
+    display: flex;
+    flex-direction: column;
+}
+
+.getapp > p {
+    margin: 13px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.app {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.app > img {
+    width: 134.283px;
+    height: 40px;
+}
+
+.apple-store {
+    margin-right: 7px;
+}
+
+/* Style Footer */
+
+ footer {
+    margin-top: 55px;
+    height: 20%;
+    font-size: 14px;
+}
+
+.text-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.text-footer > p {
+    margin-right: 15px;
+    color: #8e8e8e;
+    align-self: flex-end;
+}
+
+.language {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.language > p {
+    margin-right: 15px;
+    margin-top: 15px;
+    color: #8e8e8e;
+    align-self: flex-end;
+} 
