@@ -8,6 +8,7 @@ body {
     background-color: #ffffff;
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
 .navbar {
@@ -23,13 +24,13 @@ body {
     height: 92px;
 }
 
-.img {
+.logo-img {
     background-image: url(/picture/Screenshot\ 2565-12-06\ at\ 14.47.21.png);
     width: 196px;
     height: 36px;
     background-repeat: no-repeat;
-    background-size: 122px 39px;
-    margin: 33px 12px 35px 18px;
+    background-size: 120px 38px;
+    margin: 34px 12px 35px 18px;
 }
 
 .navigator {
@@ -40,13 +41,24 @@ body {
 .lg-size {
     width: 25.2px;
     height: 25.2px;
+    margin: 0 10px 0 15px;
+}
+
+.txt-size {
+    font-weight: 500;
+    font-size: 16px;
 }
 
 .nav-mar {
-    margin: 8px 0px;
+    margin: 3px 0px;
     padding: 12px;
-    height: 24px;
-    width: 196px;
+    height: 64px;
+    width: 220px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 12px;
 }
 
 .more {
