@@ -4,11 +4,10 @@
 }
 
 body {
-    height: 100%;
     width: 100%;
     background-color: #fafafa;
     height: 100vh;
-    padding-top: 23px;
+    padding:0px;
 }
 
 main {
@@ -18,7 +17,8 @@ main {
     align-content: center;
     justify-content: center;
     align-items: center;
-    height: 80%;
+    height: 80vh;
+    padding-bottom: 32px;
 }
 
 .left {
@@ -91,16 +91,15 @@ main {
 }
 
 .button-login {
-    width: 270px;
+    width: 268px;
     height: 30px;
     background-color: #b2dffc;
     border: 0px;
     border-radius: 4px;
     color: #ffffff;
     font-weight: bold;
-    margin-bottom: 27px;
-    font-size: 16px;
-    padding-top: 3px;
+    margin-bottom: 8px 40px;
+    font-size: 14px;
 }
 
 .or {
@@ -109,14 +108,14 @@ main {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-top: -10px;
+    margin-top: 15px;
 }
 
 .line-1 {
     width: 40%;
     height: 1px;
     background-color: #ededed;
-    margin-bottom: 5px;
+    margin-bottom: 3px;
 }
 
 .or-text {
@@ -124,14 +123,14 @@ main {
     font-weight: bold;
     color: #8e8e8e;
     box-sizing: border-box;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .line-2 {
     width: 40%;
     height: 1px;
     background-color: #ededed;
-    margin-bottom: 5px;
+    margin-bottom: 3px;
 }
 
 .facebook {
@@ -155,12 +154,13 @@ main {
     color: #385185;
     margin-left: 10px;
     margin-top: -3px;
+    font-size: 14px;
 }
 
 .forget {
     width: 100%;
     text-align: center;
-    font-size: 13px;
+    font-size: 12px;
     margin-top: 20px;
 }
 
@@ -174,13 +174,13 @@ main {
     justify-content: center;
     align-items: center;
     color: #3b3b3b;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .text-signup > span {
     color: #0095f6;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .getapp {
@@ -189,9 +189,9 @@ main {
 }
 
 .getapp > p {
-    margin: 13px;
+    margin: 15px 20px;
     text-align: center;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .app {
@@ -201,7 +201,7 @@ main {
 }
 
 .app > img {
-    width: 134.283px;
+    width: 136px;
     height: 40px;
 }
 
@@ -212,9 +212,9 @@ main {
 /* Style Footer */
 
  footer {
-    margin-top: 55px;
-    height: 20%;
+    height: 10vh;
     font-size: 14px;
+    padding: 40px 16px 0px 16px;
 }
 
 .text-footer {
@@ -224,20 +224,21 @@ main {
 }
 
 .text-footer > p {
-    margin-right: 15px;
+    margin: 7px;
     color: #8e8e8e;
     align-self: flex-end;
+    font-size: 12px;
 }
 
 .language {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin: 10px auto 10px auto;
 }
 
 .language > p {
-    margin-right: 15px;
-    margin-top: 15px;
     color: #8e8e8e;
     align-self: flex-end;
+    font-size: 12px;
 } 
