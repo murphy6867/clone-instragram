@@ -143,7 +143,7 @@ body {
 .account {
     width: 472px;
     height: 56px;
-    margin-top: 57px;
+    margin: 57px 0px -10px 0px;
 }
 
 .pro-pic {
@@ -170,5 +170,151 @@ body {
 }
 
 .option {
-    padding-top: 16px;
+    margin-top: 8px;
+}
+
+.picture {
+    width: 472px;
+    height: 590px;
+    border: none;
+    background-color: yellow;
+    background-image: url(https://akns-images.eonline.com/eol_images/Entire_Site/20201114/rs_634x1024-201214124948-634-Chris_Pratt-Guardians_Of_The_Galaxy_-_2014.jpg?fit=around%7C634:1024&output-quality=90&crop=634:1024;center,top);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 3px;
+}
+
+.emotion {
+    width: 472px;
+    height: 40px;
+    margin-top: 4px;
+    padding-bottom: 6px;
+    align-items: center;
+    box-sizing: content-box;
+}
+
+.emo-l > span {
+    padding: 5px;
+}
+
+.emo-l > span:last-child {
+    margin-left: 323px;
+}
+
+.base-line {
+    width: 472px;
+    height: 1px;
+    background-color: #ededed;
+    margin-bottom: 10px;
+}
+
+.likes {
+    display: block;
+    float: none;
+    line-height: 18px;
+    position: static;
+    z-index: auto;
+    margin-bottom: 8px;
+    width: 472px;
+    height: 18px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.account-name {
+    width: 472px;
+    height: 70px;
+    box-sizing: border-box;
+    display: flex;
+    float: none;
+    line-height: 18px;
+    position: relative;
+    z-index: auto;
+}
+
+.account-n {
+    width: 472px;
+    height: 36px;
+    box-sizing: border-box;
+    display: block;
+    line-height: 18px;
+    position: relative;
+    z-index: auto;
+    margin-bottom: 8px;
+}
+.name {
+    font-size: 14px;
+    font-weight: 600;
+    color: #262626;
+}
+
+.caption {
+    font-size: 14px;
+}
+
+.comment {
+    display: block;
+    color: #c1c1c1;
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+.add-coment {
+    height: 18px;
+    width: 472px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.add-coment > input {
+    border: none;
+    width: 472px;
+    height: 18px;
+    color: #c1c1c1;
+    font-size: 15px;
+}
+
+.side-bar {
+    width: 319px;
+    height: 66px;
+    margin: 50px 0px 16px 0px;
+    
+}
+
+.side-pro {
+    width: 56px;
+    height: 56px;
+    background-image: url(https://static.thenounproject.com/png/2795200-200.png);
+    background-size: 56px 56px;
+    margin-right: 12px;
+}
+
+.account-sidebar {
+    align-items: center;
+}
+
+.nick-name {
+    width: 196.85px;
+    height: 18px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #262626;
+}
+
+.full-name {
+    width: 196.85px;
+    height: 18px;
+    font-size: 13px;
+    color: #8e8e8e;
+    margin-top: -3px;
+}
+
+.switch {
+    width: 40.15px;
+    height: 16px;
+    color: #0496f6;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 8px;
 }
