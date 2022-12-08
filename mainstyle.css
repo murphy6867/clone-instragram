@@ -76,16 +76,10 @@ body {
     justify-content: center;
 }
 
-.newpost {
-    width: 1069px;
-    height: 36px;
-    margin-top: 8px;
-}
-
 .content {
     width: 472px;
     height: 100vh;
-    margin-right: 32px;
+    margin: 10px 32px 0 0;
 }
 
 .sidebar {
@@ -96,17 +90,85 @@ body {
 .story {
     width: 470px;
     height: 85px;
-    background-color: blue;
-    display: flex;
-    flex-direction: row;
     box-sizing: border-box;
     align-content: center;
     align-items: center;
+    margin-top: 16px;
+    padding: 16px 0px;
+}
+
+.story-pic {
+    width: 470px;
+    height: 66px;
 }
 
 .circle {
     width: 66px;
     height: 66px;
-    background-color: yellow;
-    margin: 0 10px;
+    background-image: url(https://www.seekpng.com/png/full/43-432878_select-template-instagram-story-circle-png.png);
+    background-repeat: no-repeat;
+    background-size: 66px 66px;
+    margin: 0 6.21px;
+}
+
+.person {
+    width: 59px;
+    height: 59px;
+    margin: 4px 0px 0px 4px;
+}
+
+.story-text {
+    width: 470px;
+    height: 16px;
+}
+
+.story-text > p {
+    font-size: 12px;
+    margin: 0 12px;
+    margin-bottom: 10px;
+    width: 470px;
+    height: 16px;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.account {
+    width: 472px;
+    height: 56px;
+    margin-top: 57px;
+}
+
+.pro-pic {
+    width: 32px;
+    height: 32px;
+    background-image: url(https://static.thenounproject.com/png/2795200-200.png);
+    background-repeat: no-repeat;
+    background-size: 32px 32px;
+    margin-left: 10px;
+}
+
+.pro-name {
+    width: 382px;
+    height: 40px;
+    margin: 5px 0 0 20px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #262626;
+}
+
+.time {
+    margin-left: 3px;
+    color: #c7c7c7;
+}
+
+.option {
+    padding-top: 16px;
 }
